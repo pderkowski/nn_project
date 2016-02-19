@@ -12,7 +12,7 @@ fi
 # source /pio/os/cuda-7.5/set-env.sh
 # echo "Sourcing cuda-7.5"
 
-export FUEL_DATA_PATH=/pio/data/data/fuel/
+export FUEL_DATA_PATH=$NN/datasets
 #python modules
 export PYTHONPATH=$NN:$NN/libs/fuel:$NN/libs/picklable-itertools:$PYTHONPATH
 export PATH=$ASCOPE/libs/fuel/bin:$PATH
